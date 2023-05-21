@@ -1,0 +1,11 @@
+.header__lang-links {
+  margin: 0;
+  padding: 48px 0 0;
+  display: flex;
+  column-gap: 18px;
+  list-style-type: none;
+}
+
+.header__lang-links li:last-child a {
+  text-decoration-line: none;
+}

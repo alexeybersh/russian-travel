@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-V.ttf");
+}
+
+.page {
+  min-width: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: "Helvetica Neue", Arial, sans-serif, "Inter";
+  background-color: #2a2c2f;
+  color: #ffffff;
+  font-style: normal;
+  /* min-height: 6895px; */
+  position: relative;
+}
+
+* {
+  outline: 1px solid red;
+}

@@ -1,0 +1,11 @@
+.place__parograph {
+  margin: 0;
+  padding: 26px 0 0 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__parograph:nth-child(1) {
+  padding: 48px 0 0 32px;
+}
