@@ -1,6 +1,9 @@
 /* normalize */
 @import "../vendor/normalize.css";
 
+/* fonts */
+@import "../vendor/fonts/fonts.css";
+
 /* page */
 @import "../blocks/page/page.css";
 
@@ -39,11 +42,8 @@
 @import "../blocks/place/__title/place__title.css";
 @import "../blocks/place/__image/place__image.css";
 @import "../blocks/place/__website/place__website.css";
-@import "../blocks/place/__header/place__header.css";
-@import "../blocks/place/__subtitle/place__subtitle.css";
 @import "../blocks/place/__url-heading/place__url-heading.css";
 @import "../blocks/place/__link/place__link.css";
-@import "../blocks/place/__colunms/place__columns.css";
 @import "../blocks/place/__parograph/place__parograph.css";
 
 /* cover */

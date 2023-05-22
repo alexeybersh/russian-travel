@@ -3,6 +3,18 @@
   padding: 0;
   width: 690px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__text {
+    width: 288px;
+  }
 }

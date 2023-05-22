@@ -1,5 +1,23 @@
 .intro {
-  position: relative;
   margin: 0;
-  padding: 92px 0 0;
+  padding: 92px 148px 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    padding: 64px 16px 0;
+  }
 }

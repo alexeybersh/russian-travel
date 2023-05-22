@@ -1,11 +1,29 @@
 .place__parograph {
   margin: 0;
-  padding: 26px 0 0 32px;
+  padding: 0 0 26px;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
+  font-size: 1.125rem;
+  line-height: 1.8125rem;
+  grid-area: parograph;
 }
 
-.place__parograph:nth-child(1) {
-  padding: 48px 0 0 32px;
+.place__parograph:last-child {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__parograph {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__parograph {
+    padding: 0 16px 25px;
+  }
+
+  .place__parograph:last-child {
+    padding: 0 16px;
+  }
 }
