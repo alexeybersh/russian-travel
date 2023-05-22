@@ -30,7 +30,7 @@
 @media screen and (max-width: 600px) {
   .place {
     padding: 0;
-    grid-template-columns: 320px;
+    grid-template-columns: minmax(auto-fit, 1fr);
     grid-template-areas:
       "title"
       "website"
