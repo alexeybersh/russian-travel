@@ -6,6 +6,7 @@
   font-size: 6rem;
   line-height: 6.25rem;
   text-align: center;
+  width: min-content;
 }
 
 @media screen and (max-width: 600px) {
