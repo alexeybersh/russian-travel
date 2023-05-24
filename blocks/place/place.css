@@ -1,6 +1,6 @@
 .place {
   margin: 0 auto;
-  padding: 0 148px 80px;
+  padding: 0 148px;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   display: grid;
   grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
