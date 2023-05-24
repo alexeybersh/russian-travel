@@ -5,10 +5,11 @@
   font-size: 0.75rem;
   line-height: 0.75rem;
   letter-spacing: 0.125rem;
+  text-transform: uppercase;
   color: #aaaaaa;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 638px) {
   .place__url-heading {
     padding: 0 16px 12px;
   }

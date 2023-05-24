@@ -7,9 +7,9 @@
   text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 638px) {
   .footer__copyright {
-    padding: 48px 0 24px;
+    padding: 48px 0 0;
     display: flex;
     justify-items: start;
   }

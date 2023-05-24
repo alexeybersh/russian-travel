@@ -12,14 +12,16 @@
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
 
 /* menu */
 @import "../blocks/menu/menu.css";
 
 /* lead */
 @import "../blocks/lead/lead.css";
-@import "../blocks/lead/__title/lesd__title.css";
+@import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__figure/lead__figure.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 
@@ -32,7 +34,8 @@
 
 /* photo-grid */
 @import "../blocks/photo-grid/photo-grid.css";
-@import "../blocks/photo-grid/__item/photo-grid.css";
+@import "../blocks/photo-grid/__list/photo-grid__list.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";
 
 /* places */
 @import "../blocks/places/places.css";
@@ -48,7 +51,6 @@
 
 /* cover */
 @import "../blocks/cover/cover.css";
-@import "../blocks/cover/__overlay/cover__overlay.css";
 @import "../blocks/cover/__background/cover__background.css";
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";

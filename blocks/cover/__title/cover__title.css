@@ -1,6 +1,6 @@
 .cover__title {
   margin: 0;
-  padding: 245px 0 0;
+  padding: 0;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 4.75rem;
@@ -9,19 +9,7 @@
   max-width: 560px;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    padding: 195px 0 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    padding: 115px 0 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 638px) {
   .cover__title {
     padding: 33px 0 0;
     font-size: 2rem;

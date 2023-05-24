@@ -1,6 +1,6 @@
-.place__image {
+.photo-grid__item {
   margin: 0;
   padding: 0;
   width: 100%;
-  grid-area: image;
+  display: block;
 }
