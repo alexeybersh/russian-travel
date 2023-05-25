@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 638px) {
   .place__parograph {
     padding: 0 16px 25px;
   }
