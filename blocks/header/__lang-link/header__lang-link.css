@@ -7,6 +7,7 @@
   line-height: 1.75rem;
   list-style: none;
   color: #ffffff;
+  text-decoration-line: none;
 }
 
 .header__lang-link:hover {

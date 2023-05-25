@@ -6,10 +6,6 @@
   list-style-type: none;
 }
 
-.header__lang-links li:last-child a {
-  text-decoration-line: none;
-}
-
 @media screen and (max-width: 600px) {
   .header__lang-links {
     padding: 30px 0 0;
